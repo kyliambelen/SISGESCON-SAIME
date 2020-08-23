@@ -4,8 +4,10 @@
 <html lang="en">
 
 <head>
-    <title>INFORMACION PASAPORTES</title>
-    <!-- Required meta tags -->
+    
+	<title>INFORMACION PASAPORTES</title>
+    
+	<!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
@@ -54,10 +56,11 @@
         </li>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <div class="navbar-nav mr-auto ">
-                <a class="nav-item nav-link active" style="color:#4682B4" href="menuPrincipalAdmin.php"><b>MENU PRINCIPAL</b></a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
-                <a class="nav-item nav-link " style="color:#4682B4" href="menuPasaportes.php"><b>MENU PASAPORTES</b></a> &nbsp &nbsp &nbsp &nbsp
-                <a class="nav-item nav-link" style="color:#4682B4" href="tablaPasaportes.php"><b>REGISTROS PASAPORTES</b></a> &nbsp &nbsp &nbsp &nbsp
-                <a class="nav-item nav-link" style="color:#4682B4" href="bd/cerrarSesion.php"><b>SALIR</b></a>
+                <a class="nav-item nav-link active" style="color:#FFFFFF; font-size:14px" href="menuPrincipalAdmin.php"><b>MENU PRINCIPAL</b></a> &nbsp &nbsp &nbsp &nbsp
+                <a class="nav-item nav-link " style="color:#4682B4; font-size:14px" href="menuPasaportes.php"><b>MENU PASAPORTES</b></a> &nbsp &nbsp 
+                <a class="nav-item nav-link" style="color:#4682B4; font-size:14px" href="tablaPasaportes.php"><b>REGISTROS PASAPORTES</b></a> &nbsp &nbsp
+                <a class="nav-item nav-link" style="color:#4682B4; font-size:14px" href="eliminarPasaportes.php"><b>ELIMINAR PASAPORTES</b></a> &nbsp &nbsp &nbsp &nbsp
+                <a class="nav-item nav-link" style="color:#4682B4; font-size:14px" href="bd/cerrarSesion.php"><b>SALIR</b></a>
             </div>
             <div>
                 <!--//// FORMULARIO PARA AGREGAR CEDULA Y BUSCAR EL DATO FILIATORIO ////-->
@@ -151,7 +154,7 @@
                 </div>
                 <!-- Fin del Primer Articulo  -->
                 <span class="d-block mb-5 mt-5"style="background-color:#008B8B; height: 5px"></span>
-                <hr>
+               
                 <div class="row mb-6 mb-5 mt-5">
                     <div class="col-2"></div>
                     <div class="col-6 mt-10"> <br> 

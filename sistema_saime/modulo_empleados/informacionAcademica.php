@@ -78,9 +78,9 @@ header('location: ../index.php');
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle"style="color:rgb(255,255,80); font-weight: bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SALIDA</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item"style="color: #0080FF; font-weight: bold" href="visolInfoAcademica.php">Visol Informacion Academica</a>    
-                    <a class="dropdown-item"style="color: #0080FF; font-weight: bold" href="visolEmpleados.php">visol Empleados</a>
-                        <a class="dropdown-item"style="color: #0080FF; font-weight: bold" href="tablaEmpleados.php">Tabla Empleados</a>
+                    <a class="dropdown-item"style="color: #0080FF; font-weight: bold" href="tablaEmpleados.php">Gestión Empleados</a>    
+                    <a class="dropdown-item"style="color: #0080FF; font-weight: bold" href="tabladatosAnexos.php">Datos Anexos del Empleado</a>
+                        <a class="dropdown-item"style="color: #0080FF; font-weight: bold" href="informacionEmpleados1.php">Informacion Empleados</a>
                         
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item"style="color: #FFBF00; font-weight: bold" href="../bd/cerrarSesion.php">Cerrar Sesion</a>
@@ -325,7 +325,7 @@ header('location: ../index.php');
                                     <td>
                                         <form action="" method="post">
                                             <input type="hidden" name="id" value="<?php echo $estudios['id'];?>">                      
-                                            <input type="submit" value="Seleccionar" class="btn btn-info" name="accion">
+                                            <button type="submit" value="Seleccionar" class="btn btn-info" name="accion"><span class="badge badge-light"> Editar-Eliminar</span>
                                             <!--<button value="btnEliminar" id="btnEliminar"  type="submit" class="btn btn-danger" name="accion"> Eliminar </button>-->
                                         </form>                     
                                     </td>                          

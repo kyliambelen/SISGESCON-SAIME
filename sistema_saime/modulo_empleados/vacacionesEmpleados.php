@@ -367,7 +367,7 @@ header('location: index.php');
                                     <td>
                                         <form action="" method="post">
                                             <input type="hidden" name="id" value="<?php echo $vacaciones['id'];?>">                      
-                                            <input type="submit" value="Seleccionar" class="btn btn-danger" name="accion">
+                                            <button type="submit" value="Seleccionar" class="btn btn-primary" name="accion"><span class="badge badge-dark"> Editar - Eliminar</span>
                                             <!--<button value="btnEliminar" id="btnEliminar"  type="submit" class="btn btn-danger" name="accion"> Eliminar </button>-->
                                         </form>                     
                                     </td>                          

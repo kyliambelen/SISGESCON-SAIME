@@ -135,31 +135,31 @@
                         <p class="text-center font-italic" style="color:#000000"> <span class="badge badge-pill" style="background-color:#2A5886;font-size:18px;color:#FFF"><b>V.- <?php echo $DF['cedula_df'];?>&nbsp &nbsp <?php echo $DF['nombres_df'];?> <?php echo $DF['apellidos_df'];?></b></p><br>            
                     </div>
                     <div class="col-12 col-md-3 mt-3">
-                        <div class="card" style="width: 17rem; height:3rem; background-color:#A9D0F5">
+                        <div class="card" style="width: 18rem; height:3rem; background-color:#E6E9F1">
                             <div class="card-block">
-                                <h5 class="card-title" style="color:#0410FC; font-size:12px"><b>FECHA DE EXPEDICIÓN:&nbsp &nbsp<span class="badge badge-pill" style="background-color:#2A5886;font-size:12px;"><?php echo $DF['fecha_actual'];?></b></h5>
+                                <p class="card-title" style="color:#2A5886; font-size:12px"><b>FECHA DE EXPEDICIÓN:</b> &nbsp &nbsp<span class="badge badge-pill" style="background-color:#2A5886;font-size:12px;"><?php echo $DF['fecha_actual'];?></b></p>
                                 <p class="card-text"></p>
                             </div>
                         </div><br>
-                        <div class="card" style="width: 17rem; height:3rem; background-color:#81BEF7">
+                        <div class="card" style="width: 18rem; height:3rem; background-color:#E6E9F1">
                             <div class="card-block">
-                                <h5 class="card-title" style="color:#0410FC; font-size:12px"><b>FECHA DE CEDULACIÓN:&nbsp &nbsp<span class="badge badge-pill" style="background-color:#2A5886;font-size:12px;"><?php echo $DF['fechaExpedicion'];?></b></h5>
+                                <p class="card-title" style="color:#2A5886; font-size:12px"><b>FECHA DE CEDULACIÓN:</b> &nbsp &nbsp<span class="badge badge-pill" style="background-color:#2A5886;font-size:12px;"><?php echo $DF['fechaExpedicion'];?></b></p>
                                 <p class="card-text"></p>
                             </div>
                         </div>
                         <br>
-                        <div class="card" style="width: 17rem; height:3rem; background-color:#81BEF7">
+                        <div class="card" style="width: 18rem; height:3rem; background-color:#E6E9F1">
                             <div class="card-block">
-                                <h5 class="card-title" style="color:#0410FC; font-size:12px"><b>ESTADO CIVIL:&nbsp &nbsp<span class="badge badge-pill" style="background-color:#2A5886;font-size:12px;"><?php echo $DF['estadoCivil_df'];?></b></h5>
+                                <p class="card-title" style="color:#2A5886; font-size:12px"><b>ESTADO CIVIL:</b> &nbsp &nbsp<span class="badge badge-pill" style="background-color:#2A5886;font-size:12px;"><?php echo $DF['estadoCivil_df'];?></b></p>
                                 <p class="card-text"></p>
                             </div>
                         </div>
 
                         <hr style="color: #0056b2;" />
 
-                        <div class="card" style="width: 17rem; height:3rem; background-color:#A9D0F5">
+                        <div class="card" style="width: 18rem; height:3rem; background-color:#E6E9F1">
                             <div class="card-block">
-                                <h5 class="card-title" style="color:#0410FC; font-size:12px"><b>FECHA DE NACIMIENTO:&nbsp &nbsp<span class="badge badge-pill" style="background-color:#2A5886;font-size:12px;"><?php echo $DF['fechaNac_df'];?></b></h5>
+                                <p class="card-title" style="color:#2A5886; font-size:12px"><b>FECHA DE NACIMIENTO:&nbsp &nbsp<span class="badge badge-pill" style="background-color:#2A5886;font-size:12px;"><?php echo $DF['fechaNac_df'];?></b></p>
                                 <p class="card-text"></p>
                             </div>
                         </div>
@@ -170,7 +170,7 @@
                 <hr >
                 <!--jumbotron Padre y Madre -->
 
-                <div class="jumbotron"  style="width:45%;">
+                <div class="jumbo"  style="width:80%;">
                     <h6 style="color:#2A5886"><strong><b>MADRE:</b></strong></h6>               
                    
                     <p class="alert-link" style="color:#000000; font-size:18px"><span class="badge badge-pill" style="background-color:#2A5886"><?php echo $DF['madre_df'];?></span>             
@@ -180,39 +180,39 @@
                                       
                 <!--jumbotron Documentos Presentados-->
 
-                <div class="jumbotron mt-3 pt-5" style="background-color:#F7F2E0">
-                    <h1 style="font-size:16px"><strong>LUGAR DE NACIMIENTO</strong></h1>
-                    <div class="alert alert" style="background-color:rgb(241,180,0)">
-                        <p class="alert-link" style="color:#000000; font-size:12px"><?php echo $DF['lugarNac_df'];?>
+                <div class="jumbo mt-3 pt-5" style="background-color:#F7F2E0">
+                    <h1 style="font-size:16px; color:#2A5886"><strong><b>LUGAR DE NACIMIENTO</b></strong></h1>
+                    <div class="alert alert" style="background-color:#D0D8EE">
+                        <p class="alert-link" style="color:#2A5886; font-size:12px"><b><?php echo $DF['lugarNac_df'];?></b></p>
                     </div>
                     <hr class="my-5">
-                    <h1 style="font-size:16px"><strong>DOCUMENTOS PRESENTADOS</strong></h1>
-                    <p class="lead">
-                        <div class="alert alert-info">
-                            <p class="alert-link" style="color:#000000; font-size:12px"><?php echo $DF['documentos1_df'];?>
+                    <h1 style="font-size:16px; color:#2A5886"><strong><b>DOCUMENTOS PRESENTADOS</b></strong></h1>
+                    <div class="lead">
+                        <div class="alert"style="background-color:#E6E9F1">
+                            <p class="alert-link" style="color:#2A5886; font-size:12px"><?php echo $DF['documentos1_df'];?></p>
                         </div>
                         <hr style="color: #0056b2;" />
-                        <div class="alert alert-info">
-                            <p class="alert-link" style="color:#000000; font-size:12px"><?php echo $DF['documentos2_df'];?>
+                        <div class="alert"style="background-color:#E6E9F1">
+                            <p class="alert-link" style="color:#2A5886; font-size:12px"><?php echo $DF['documentos2_df'];?></p>
                         </div>
                         <hr style="color: #0056b2;" />
-                        <div class="alert alert-info">
-                            <p class="alert-link" style="color:#000000; font-size:12px"><?php echo $DF['documentos3_df'];?>
+                        <div class="alert"style="background-color:#E6E9F1">
+                            <p class="alert-link" style="color:#2A5886; font-size:12px"><?php echo $DF['documentos3_df'];?></p>
                         </div>
                         <hr style="color: #0056b2;" />
-                        <div class="alert alert-info">
-                            <p class="alert-link" style="color:#000000; font-size:12px"><?php echo $DF['documentos4_df'];?>
+                        <div class="alert"style="background-color:#E6E9F1">
+                            <p class="alert-link" style="color:#2A5886; font-size:12px"><?php echo $DF['documentos4_df'];?></p>
                         </div>
                         <hr style="color: #0056b2;" />
-                        <div class="alert alert-info">
-                            <p class="alert-link" style="color:#000000; font-size:12px"><?php echo $DF['documentos5_df'];?>
+                        <div class="alert"style="background-color:#E6E9F1">
+                            <p class="alert-link" style="color:#2A5886; font-size:12px"><?php echo $DF['documentos5_df'];?></p>
                         </div>
                         <hr style="color: #0056b2;" />
-                        <div class="alert alert-info">
-                            <p class="alert-link" style="color:#000000; font-size:12px"><?php echo $DF['documentos6_df'];?>
+                        <div class="alert"style="background-color:#E6E9F1">
+                            <p class="alert-link" style="color:#2A5886; font-size:12px"><?php echo $DF['documentos6_df'];?></p>
                         
                         </div>
-                       
+                    </div>   
                 </div>
                 <hr>  
                   

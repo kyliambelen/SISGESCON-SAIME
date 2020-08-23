@@ -62,14 +62,14 @@ header('location: index.php');
                 <div class="text-left" style="color:#FFF;">
                     <h1 class="display-4"><b>SAIME</b>
                     <p class="lead" style="color:#FFF;"><b>Servicio Administrativo de Identificacion Migración y Extranjería....</b></p>
-                    <p class="lead" style="color:#FFF;"><b>Oficina Carúpano - Estado Sucre.</b></p>
+                    <p class="lead" style="color:#FFFF00; font-size:15px"><b>Oficina Carúpano - Estado Sucre.</b></p>
                 </div>
             </div>
             <!--Fin slider banner-->
 
             <!--Menu de Navegacion-->
 
-            <nav class="navbar navbar-toggleable-sm sticky-top"style="background:#FFFFFF">
+            <nav class="navbar navbar-toggleable-sm sticky-top"style="background:#CEE3F6">
                 <button class="navbar-toggler navbar-toggler-right"style="background-color:#B45F04; color:#FFFFFF" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"><b>MENU</b>
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -78,10 +78,12 @@ header('location: index.php');
                 </li>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <div class="navbar-nav mr-auto ">
-                        <a class="nav-item nav-link active" style="color:#0D6EDE" href="../menuPrincipalAdmin.php"><b>MENU PRINCIPAL</b></a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
-                        <a class="nav-item nav-link " style="color:#0D6EDE" href="menuEmpleados.php"><b>MENU EMPLEADOS</b></a> &nbsp &nbsp &nbsp &nbsp
-                        <a class="nav-item nav-link" style="color:#0D6EDE" href="tablaEmpleados.php"><b>GESTION EMPLEADOS</b></a> &nbsp &nbsp &nbsp &nbsp
-                        <a class="nav-item nav-link" style="color:#0D6EDE" href="../bd/cerrarSesion.php"><b>SALIR</b></a>
+                        <a class="nav-item nav-link active" style="color:#000000; font-size:14px" href="../menuPrincipalAdmin.php"><b>MENU PRINCIPAL</b></a> 
+                        <a class="nav-item nav-link " style="color:#0D6EDE; font-size:14px" href="menuEmpleados.php"><b>MENU EMPLEADOS</b></a>
+                        <a class="nav-item nav-link" style="color:#0D6EDE; font-size:14px" href="tablaEmpleados.php"><b>GESTION EMPLEADOS</b></a> 
+                        <a class="nav-item nav-link" style="color:#0D6EDE; font-size:14px" href="informacionAcademica.php"><b>INFO.ACADEMICA</b></a>
+                        <a class="nav-item nav-link" style="color:#0D6EDE; font-size:14px" href="tabladatosAnexos.php"><b>DATOS ANEXOS</b></a>
+                        <a class="nav-item nav-link" style="color:#0D6EDE; font-size:14px" href="../bd/cerrarSesion.php"><b>SALIR</b></a>
                     </div>
                     <div>
                         <!--//// FORMULARIO PARA AGREGAR CEDULA Y BUSCAR INFORMACION DEL EMPLEADO ////-->
@@ -99,7 +101,7 @@ header('location: index.php');
             <!--fin del menu de navegacion-->
             <span class="d-block"style="background-color:rgb(54,114,193); height:5px"></span>
             <hr>
-            <div class="container-fluid mt-4 pt-4">
+            <div class="container-fluid mt-3 pt-3">
                 <div class="row">
                     <div class="col-sm-2"></div>		
                         <div class="col-sm-10">
@@ -633,7 +635,7 @@ header('location: index.php');
                             
             <!-----------//////////////// F   O   O   T   E   R ///////////////----------------->
             
-            <div class="footer mt-5 pt-5"style="background: #FFF">
+            <div class="footer"style="background: #CEE3F6">
                 <div class="footer-copy">
                     <br>
                     <p class="piefooter1" style="color:#0040FF; font-family: Georgia, 'Times New Roman', serif;"><b> &copy; Miguel A. Rodríguez || MARROJAS DESARROLLO || Todos los Derechos Reservados, Julio 2020 </b></P>

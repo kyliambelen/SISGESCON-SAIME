@@ -20,9 +20,12 @@ header('location: ../index.php');
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
             <!--<link rel="shortcut icon" href="#" />-->  
-    <title>::Tabla Control Usuarios::</title>
-        <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css">
+    
+	<title>::Tabla Control Usuarios::</title>
+        
+		<!-- Bootstrap CSS -->
+   
+   <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css">
     <!-- CSS personalizado --> 
     <link rel="stylesheet" href="../lib/main_proyecto/main.css">  
     <link href="../lib/bootstrap/css/bootstrap.css" rel="stylesheet"> 
@@ -227,7 +230,7 @@ header('location: ../index.php');
                                     <td>
                                         <form action="" method="post">
                                             <input type="hidden" name="id" value="<?php echo $usuarios['id'];?>">                      
-                                            <input type="submit" value="Seleccionar" class="btn btn-outline-primary btn-lg btn-block" name="accion">
+                                            <button type="submit" value="Seleccionar" class="btn btn-outline-danger btn-lg btn-block" name="accion"><span class="badge badge-primary"> Editar - Eliminar</span>
                                             <!--<button value="btnEliminar" id="btnEliminar"  type="submit" class="btn btn-danger" name="accion"> Eliminar </button>-->
                                         </form>                     
                                     </td>                          

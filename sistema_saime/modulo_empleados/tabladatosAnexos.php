@@ -74,7 +74,11 @@ header('location: index.php');
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle"style="color:rgb(0,0,0); font-weight: bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SALIDA</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item"style="color: #0080FF; font-weight: bold" href="visolEmpleados.php">Visol Empleados</a>
+                        <a class="dropdown-item"style="color: #0080FF; font-weight: bold" href="tablaEmpleados.php">Gestión Empleados</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item"style="color: #0080FF; font-weight: bold" href="informacionAcademica.php">Información Académica del Empleado</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item"style="color: #0080FF; font-weight: bold" href="informacionEmpleados1.php">Información del Empleado</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item"style="color: #FFBF00; font-weight: bold" href="../bd/cerrarSesion.php">Cerrar Sesion</a>
                     </div>
@@ -1022,7 +1026,7 @@ header('location: index.php');
                                     <td>
                                         <form action="" method="post">
                                             <input type="hidden" name="id" value="<?php echo $Danexos['id'];?>">                      
-                                            <input type="submit" value="Seleccionar" class="btn btn-danger" name="accion">
+                                            <button type="submit" value="Seleccionar" class="btn btn-warning" name="accion"><span class="badge badge-info"> Editar - Eliminar</span>
                                             <!--<button value="btnEliminar" id="btnEliminar"  type="submit" class="btn btn-danger" name="accion"> Eliminar </button>-->
                                         </form>                     
                                     </td>                          

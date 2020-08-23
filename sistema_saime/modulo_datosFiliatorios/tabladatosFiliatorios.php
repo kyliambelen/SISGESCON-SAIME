@@ -363,7 +363,7 @@ header('location: index.php');
                                     <td>
                                         <form action="" method="post">
                                             <input type="hidden" name="id" value="<?php echo $df['id'];?>">                      
-                                            <input type="submit" value="Seleccionar" class="btn btn-danger" name="accion">   
+                                            <button type="submit" value="Seleccionar" class="btn btn-secondary" name="accion"><span class="badge badge-dark"> Editar - Eliminar</span>
                                         </form>                     
                                     </td> 
                                     
@@ -456,12 +456,7 @@ header('location: index.php');
                     className: 'btn btn-success'
                 },
                     
-                {
-                    extend:    'print',
-                    text:      '<i class="fa fa-print"></i> ',
-                    titleAttr: 'Imprimir',
-                    className: 'btn btn-warning'
-                },
+                
             ],
     
                     
