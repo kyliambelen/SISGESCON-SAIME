@@ -1,0 +1,349 @@
+body .fondo {
+    background-color: #D8D8D8;
+}
+
+
+/*estilos para la tabla*/
+
+
+/*}
+[code] TD {
+    font-size: 10px
+}
+[/ code] table>tbody>tr>td {
+    vertical-align: middle;
+}
+th {
+    text-align: center;
+}*/
+
+
+/*para alinear los botones y cuadro de busqueda*/
+
+.btn-group,
+.btn-group-vertical {
+    position: relative !important;
+}
+
+.sticky-top-2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 70px;
+    z-index: 1020;
+}
+
+.sticky-top-3 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 70px;
+    z-index: 1020;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    background: rgb(180, 180, 180);
+    height: 100 px;
+    float: center;
+    color: rgb(55, 72, 131);
+    font-size: 12;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.caja {
+    /* border: 1px solid; */
+    padding: 5px;
+    box-shadow: 5px 0px 5px 1px #7c7c81;
+    border-radius: 10px;
+}
+
+.caja {
+    transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+}
+
+.caja2 {
+    /* border: 1px solid; */
+    padding: 5px;
+    box-shadow: 5px 0px 5px 1px #7c7c81;
+    border-radius: 10px;
+}
+
+.caja2 {
+    transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+}
+
+.containerFoto {
+    width: 700px;
+    height: 300px;
+    background-color: #0080FF;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 5px;
+    box-shadow: 5px 0px 5px 1px #7c7c81;
+    border-radius: 10px;
+    transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+}
+
+.formImagen {
+    margin: auto;
+    width: 100%;
+}
+
+
+/* ESTILOS PARA LA IMAGEN PRINCIPAL SAIME */
+
+.imgFooter {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 5px;
+    box-shadow: 5px 0px 5px 1px #5D6D7E;
+    border-radius: 10px;
+    transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+}
+
+.imgFooter2 {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 5px;
+    box-shadow: 5px 0px 5px 1px #5D6D7E;
+    border-radius: 10px;
+    transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(0.901) skew(0deg) translate(0px);
+}
+
+
+/*  ESTILOS PARA LA CAJA DE LOS TITULOS DE LOS MODULOS*/
+
+#page-wrapper1 {
+    border-radius: 0px 5px 5px 0px;
+}
+
+#page-wrapper2 {
+    box-shadow: 5px 0px 5px 1px #190707;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#page-wrapper3 {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.piefooter1 {
+    font-family: alegreya-light;
+    font-size: 13px;
+    color: rgb(55, 72, 131);
+}
+
+
+/*  ESTILOS PARA LA CAJA DE BUSQUEDA E IMPRESION DE LOS DATOS FILIATORIOS*/
+
+.form_search {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    float: right;
+    background: #848484;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.form_search .btn_search {
+    background: #190707;
+    color: #FFF;
+    padding: 0 20px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+/*  ESTILOS PARA LA CAJA DE BUSQUEDA O VISOL  DE LOS DATOS FILIATORIOS*/
+
+.form_search_DF {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    float: right;
+    background: #0343F1;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.form_search_DF .btn_search_DF {
+    background: #2A5886;
+    color: #FFFFFF;
+    padding: 0 20px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+/*  ESTILOS PARA LA CAJA DE BUSQUEDA O VISOL  DE PASAPORTES*/
+
+.form_search_Pass {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    float: right;
+    background: #4682B4;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.form_search_Pass .btn_search_Pass {
+    background: #045FB4;
+    color: #FFFFFF;
+    padding: 0 20px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+/*  ESTILOS PARA LA CAJA DE BUSQUEDA DE INFORMACION EMPLEADOS*/
+
+.form_search_EMP {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    float: right;
+    background: rgb(54, 114, 193);
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.form_search_EMP .btn_search_EMP {
+    background: #000;
+    color: #FFFFFF;
+    padding: 0 20px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+/*  ESTILOS PARA LA IMAGEN DEL SEGUNDO BANNER O BARRA NAV*/
+
+.imgBanner1 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: none;
+    border: 2px solid #fff;
+    float: initial;
+}
+
+
+/*  ESTILOS PARA LAS IMAGENES DE LOS BANNER DEL MODULO USUARIOS*/
+
+.logoUsuario {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: none;
+    border: 2px solid #fff;
+    float: initial;
+}
+
+
+/*  ESTILOS PARA LAS IMAGENES DE LOS BANNER DEL MODULO PASAPORTES*/
+
+.logoPasaportes {
+    width: 60px;
+    height: 60px;
+    border-radius: 30%;
+    margin: none;
+    border: 2px solid #fff;
+    float: initial;
+}
+
+.logobannerAdmin {
+    width: 60px;
+    height: 60px;
+    border-radius: 3%;
+    margin: none;
+    border: 2px solid #fff;
+    float: initial;
+}
+
+.logoBannermedio {
+    width: 60px;
+    height: 60px;
+    border-radius: 30%;
+    margin: none;
+    border: 2px solid #fff;
+    float: initial;
+}
+
+
+/*  ESTILOS PARA LAS IMAGENES DE LOS BANNER DEL MODULO EMPLEADOS*/
+
+.logoEmpleados {
+    width: 60px;
+    height: 60px;
+    border-radius: 30%;
+    margin: none;
+    border: 2px solid #fff;
+    float: initial;
+}
+
+.logopermiEmpleados {
+    width: 100px;
+    height: 80px;
+    border-radius: 30%;
+    margin: none;
+    border: 2px solid #fff;
+    float: initial;
+}
+
+.logovacaEmpleados {
+    width: 100px;
+    height: 80px;
+    border-radius: 30%;
+    margin: none;
+    border: 2px solid #fff;
+    float: initial;
+}
+
+
+/*  ESTILOS PARA LA IMAGEN DEL MODAL INGRESAR USUARIOS*/
+
+.modalUsuario {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: none;
+    border: 2px solid #fff;
+    float: initial;
+}

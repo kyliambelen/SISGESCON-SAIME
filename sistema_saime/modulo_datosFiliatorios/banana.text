@@ -1,0 +1,40 @@
+<?php
+
+$ceduladf=(isset($_POST['ceduladf'])) ? $_POST['ceduladf']:"";
+
+
+		        
+include ("../modulo_empleados/baseDatos/conexion.php");
+
+
+
+$sentencia= $pdo-> prepare(" SELECT 
+                                `fecha_actual`,
+                                `cedula_df`,
+                                `fechaExpedicion`,
+                                `nombres_df`, 
+                                `apellidos_df`, 
+                                `estadoCivil_df`, 
+                                `nacionalidad_df`, 
+                                `fechaNac_df`, 
+                                `madre_df`, 
+                                `padre_df`, 
+                                `lugarNac_df`, 
+                                `documentos1_df`,
+                                `documentos2_df`,
+                                `documentos3_df`,
+                                `documentos4_df`,
+                                `documentos5_df`,
+                                `documentos6_df`, 
+                                `jefeOficina`, 
+                                `bancos_df`                                  
+                          FROM  `datos_filiatorios` 
+                          WHERE  cedula_df = $ceduladf ");
+$sentencia->execute();
+$resultDF= $sentencia->fetchAll(PDO::FETCH_ASSOC);
+
+?>
+        <?php foreach($resultDF AS $DF){?>
+        
+
+         <?php } ?>  
